@@ -20,8 +20,8 @@ const Cart = ({cart}) => {
                 <p>Selected Item: {cart.length}</p>
                 <p>Total Price: ${total}</p>
                 <p>Total Shipping: ${totalShipping} </p>
-                <p>Tax: ${tax}</p>
-                <p><strong>Grand Total: ${grandTOtal}</strong></p>
+                <p>Tax: ${tax.toFixed(2)}</p>
+                <p><strong>Grand Total: ${grandTOtal.toFixed(2)}</strong></p>
         </div>
     );
 };
