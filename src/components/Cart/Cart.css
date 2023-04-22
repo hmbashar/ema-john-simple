@@ -1,5 +1,5 @@
 .cart {
-    background-color: rgb(255 153 0 / 84%);
+    background-color: rgba(255, 153, 0, 0.3);
     padding: 25px;
     position: sticky;
     top:0;
@@ -14,4 +14,17 @@ line-height: 20px;
 letter-spacing: 0.005em;
 
 color: #2A414F;
+}
+
+.btn-clear-cart {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+    background-color: #ff3030;
+    border-radius: 4px;
+    color: white;
+    height: 56px;
+    align-items: center;
+    font-size: 20px;
 }

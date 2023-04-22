@@ -4,8 +4,27 @@
 }
 
 .products-container {
-    margin:50px;
+    margin: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:45px;
+    gap: 45px;
+}
+
+.btn-proceed {
+    background-color: #FF9900;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.0015em;
+
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 4px;
+    color: white;
+    height: 56px;
+    align-items: center;
+    font-size: 20px;
 }
